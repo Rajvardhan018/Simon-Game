@@ -1,0 +1,69 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+.box{
+    /* height: 200px;
+    width: 200px;
+    border-radius: 25%;
+    border: 10px solid black;
+    margin: 2rem;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%; */
+    height: 150px; /* Reduced size for better layout */
+    width: 150px;
+    border-radius: 20%;
+    border: 8px solid black;
+    margin: 1rem;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, background-color 0.2s ease;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.one{
+   background-color: #DC143C;}
+.two{
+     background-color: #FF8C00;
+}
+.three{
+   background-color: #8B008B;
+}
+.four{
+   background-color: #ADFF2F;
+}
+.five{
+  background-color: #FF69B4;
+}
+.six{
+    background-color: #48D1CC;
+}
+.flash{
+    background-color: white;
+    transition: background-color 0.2s ease;
+}
+.userflash{
+    background-color: green;
+    transition: background-color 0.2s ease;
+}
+.rules {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+ul {
+    text-align: left;
+    line-height: 1.6;
+}
+.box:active {
+    transform: scale(0.9);
+}

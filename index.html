@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <div class="rules">
+        <h3>How to Play:</h3>
+        <ul>
+            <li>The game will flash a color in a specific order.</li>
+            <li>Watch the sequence carefully and remember it.</li>
+            <li>After the sequence finishes, repeat it by clicking the colors in the correct order.</li>
+            <li>Each round, the sequence will get longer, making it harder.</li>
+            <li>If you click the wrong color, the game is over.</li>
+            <li>Your goal is to follow the longest sequence possible and set a high score!</li>
+        </ul>
+    </div>
+
+    <h2>Press any Key to Start</h2>
+    <div class="container">
+        <div class="lineone">
+        <div class="box one" type="button" id="one"></div>
+        <div class="box two" type="button" id="two"></div>
+       
+        </div>
+        <div class="linetwo">
+        <div class="box  three" type="button" id="three"></div>
+        <div class="box four" type="button" id="four"></div>
+        </div>
+        <div class="linethree">
+            <div class="box five" type="button" id="five"></div>
+            <div class="box six" type="button" id="six"></div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
